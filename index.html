@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Instituto Vocalize - MasterClass de Comunicação e Oratória. Aprenda técnicas para destravar sua carreira e conquistar um novo emprego em até 60 dias.">
+    <meta name="description"
+        content="Instituto Vocalize - MasterClass de Comunicação e Oratória. Aprenda técnicas para destravar sua carreira e conquistar um novo emprego em até 60 dias.">
     <meta name="keywords" content="oratória, comunicação, carreira, emprego, recolocação profissional, desenvolvimento pessoal, técnicas de entrevista, currículo, LinkedIn">
     <meta name="author" content="Instituto Vocalize">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
     <meta name="google-site-verification" content="google-site-verification=1234567890">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Instituto Vocalize | MasterClass de Comunicação e Oratória">
@@ -18,16 +19,16 @@
     <meta property="og:image" content="https://institutovocalize.com.br/images/meta/main.png">
     <meta property="og:url" content="https://institutovocalize.com.br/">
     <meta property="og:site_name" content="Instituto Vocalize">
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Instituto Vocalize | MasterClass de Comunicação e Oratória">
     <meta name="twitter:description" content="Aprenda técnicas para destravar sua carreira e conquistar um novo emprego em até 60 dias.">
     <meta name="twitter:image" content="https://institutovocalize.com.br/images/meta/main.png">
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href="https://institutovocalize.com.br/">
-    
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
@@ -36,10 +37,10 @@
     <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    
+
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/main.css">
-    
+
     <!-- Schema.org Markup -->
     <script type="application/ld+json">
     {
@@ -55,7 +56,7 @@
       ]
     }
     </script>
-    
+
     <title>Instituto Vocalize | MasterClass de Comunicação e Oratória</title>
 </head>
 
@@ -97,19 +98,19 @@
                         </a>
                     </div>
                 </div>
-            </nav>
-        </header>
+        </nav>
+    </header>
 
     <main>
         <!-- hero -->
-        <section id="hero" class="flex flex-col lg:flex-row w-full gap-5 lg:gap-20 justify-between items-center h-full mb-[5rem] lg:mb-[10rem]">
-            <div class="w-full text-center lg:text-left">
-                <div class="flex flex-col gap-8">
+        <section id="hero" class="animate-slide-up flex flex-col md:flex-row w-full gap-5 md:gap-20 justify-between items-center h-full mb-[5rem] md:mb-[10rem]">
+            <div class="w-full text-center md:text-left">
+                <div class="flex flex-col gap-2 md:gap-8">
                     <div>
                         <h6 class="text-sm uppercase font-black text-slate-500">
                             Treinamento
                         </h6>
-                        <h1 class="font-black text-2xl md:text-4xl text-slate-200">
+                        <h1 class="font-bold text-1xl md:text-4xl text-slate-200">
                             <p>
                                 Compartilhe suas ideias e cative qualquer público
                             </p>
@@ -131,107 +132,94 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full mx-auto rounded-sm bg-gradient-to-b from-violet-400 to-blue-800 p-[2px] shadow-sm shadow-violet-500/50">
-                <div class="rounded-sm bg-black p-5">
-                    <div class="text-center flex flex-col gap-3 mb-5 hidden md:block">
-                        <p class="text-xl font-bold uppercase">Garanta sua Vaga Agora!</p>
-                        <p>Um método validado, que já ajudou centenas de profissionais a conquistarem um novo emprego rapidamente!</p>
-                        <hr class="my-5">
-                    </div>
-                    <div class="flex flex-col gap-4">
-                        {% include aulao/subscription_form.html %}
-                    </div>
-                </div>
+            <div class="rounded-sm bg-black">
+                <img class="h-auto mx-auto" src="/images/photo4.png" alt="Fernando em Público">
             </div>
-            <h2 class="font-display block md:hidden text-left text-lg text-slate-200 px-4">
-                <div class="my-5">
-                    <p>📅 27 de março, às 20h</p>
-                    <p>📍 100% Online e Gratuito</p>
-                </div>
-                <p class="my-4"><span class="font-bold">🎁 Bônus Especial:</span> Checklist de Recolocação para você aplicar tudo o que aprendeu imediatamente!</p>
-            </h2>
+            <!-- </div> -->
         </section>
         <!-- end hero -->
         <!-- content -->
-        <section id="conteudo" class="flex flex-col gap-8 mb-[5rem] lg:mb-[10rem]">
-            {% include inclass/section_title.html title="O que você irá aprender" subtitle="Descubra os segredos para construir uma carreira de sucesso com conteúdos exclusivos e
-            práticos" %}
-            <div class="grid grid-col-1 lg:grid-cols-4 gap-10">
-                {% for content in page.contents %}
-                <div class="flex flex-col gap-3 text-center mx-auto">
-                    <img class="max-w-[100px] h-auto mx-auto" src="{{site.baseurl}}{{content.image}}" alt="{{content.title}}">
-                    <div class="text-1xl font-bold">{{content.title}}</div>
-                    <div class="text-slate-400">{{content.description}}</div>
-                </div>
-                {% endfor %}
+        <section id="conteudo" class="animate-slide-up flex flex-col gap-8 mb-[5rem] lg:mb-[10rem]">
+            <div class="flex flex-col gap-4 text-center pb-10">
+                <h2
+                    class="uppercase text-2xl sm:text-4xl leading-none text-center font-black bg-gradient-to-r from-cyan-400 to-violet-600 bg-clip-text text-transparent opacity-100">
+                    O que você irá aprender
+                </h2>
+                <p class="mx-auto max-w-lg font-base text-md text-slate-400">
+                    Transforme suas habilidades de comunicação com nosso curso abrangente que cobre todos os aspectos da fala eficaz
+                </p>
             </div>
-            <div class="mt-10 w-full mx-auto">
-                <a href="#top">
-                    <div
-                        class="text-xs w-full mx-auto md:w-[400px] uppercase p-5 text-white bg-green-600 rounded-sm hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-bold text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
-                        Quero me Inscrever Agora
-                    </div>
-                </a>
+            <div class="grid grid-col-1 lg:grid-cols-4 gap-6 md:gap-12">
+                <div class="flex flex-col gap-3 text-center mx-auto bg-[#001F7C] rounded-lg py-10 px-6 shadow-lg shadow-teal-800/40">
+                    <img class="w-[40px] h-auto mx-auto" src="/images/icons/mic.png">
+                    <div class="text-1xl font-bold">Domínio da Voz</div>
+                    <div class="text-slate-200">Aprenda técnicas para tornar sua voz mais envolvente, poderosa e persuasiva através de exercícios vocais e controle de tom.</div>
+                </div>
+                <div class="flex flex-col gap-3 text-center mx-auto bg-[#001F7C] rounded-lg py-10 px-6 shadow-lg shadow-teal-800/40">
+                    <img class="w-[40px] h-auto mx-auto" src="/images/icons/chat.png">
+                    <div class="text-1xl font-bold">Técnicas de Storytelling</div>
+                    <div class="text-slate-200">Aprenda a criar histórias convincentes que engajam, persuadem e tornam sua mensagem inesquecível.</div>
+                </div>
+                <div class="flex flex-col gap-3 text-center mx-auto bg-[#001F7C] rounded-lg py-10 px-6 shadow-lg shadow-teal-800/40">
+                    <img class="w-[40px] h-auto mx-auto" src="/images/icons/badge.png">
+                    <div class="text-1xl font-bold">Construção de Confiança</div>
+                    <div class="text-slate-200">Supere medos e inseguranças sobre falar em público através de técnicas psicológicas comprovadas.</div>
+                </div>
+                <div class="flex flex-col gap-3 text-center mx-auto bg-[#001F7C] rounded-lg py-10 px-6 shadow-lg shadow-teal-800/40">
+                    <img class="w-[40px] h-auto mx-auto" src="/images/icons/people.png">
+                    <div class="text-1xl font-bold">Conexão com a Platéia</div>
+                    <div class="text-slate-200">Domine a arte de ler e se conectar com seu público, seja uma pessoa ou centenas.</div>
+                </div>
             </div>
         </section>
         <!-- end content -->
         <!-- experts -->
         <section id="experts" class="flex flex-col gap-8 mb-[5rem] lg:mb-[10rem]">
-            {% include inclass/section_title.html title="Quem é Jorge Mallet" %}
-            <div class="flex flex-col md:flex-row mx-auto gap-1 justify-between">
-                <div class="w-full md:w-1/2">
+            <div class="flex flex-col md:flex-row mx-auto gap-1 justify-between items-center">
+                <div class="w-full">
                     <figure class="flex flex-col items-center p-8">
-                        <img class="max-h-[500px] w-auto rounded-md mx-auto shadow-lg shadow-cyan-800/20" src="/assets/images/aulao/jm.jpg" alt="Jorge Mallet" />
-                        <div class="pt-6 text-center space-y-4">
-                            <div class="space-y-2">
-                                <p class="font-thin text-slate-300">
-                                    <a href="https://linkedin.com/in/jorgemallet" target="_blank">
-                                        <i class="fa-brands fa-linkedin text-[18px]"></i> <span class="ml-1">/jorgemallet</span>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
+                        <img class="max-h-[600px] w-auto rounded-md mx-auto shadow-lg shadow-cyan-800/20" src="/images/photo5.png" alt="Fernando de Matos" />
                     </figure>
                 </div>
-                <div class="w-full md:w-1/2">
-                    <p class="py-5">
-                        <b>Jorge Mallet</b> é especialista em recrutamento com mais de 15 anos de experiência,
-                        tendo atuado em empresas como <b>Ambev</b>, <b>Americanas</b> e <b>Gupy</b>.
-                        Ao longo de sua carreira, já ajudou centenas de profissionais a conquistarem um novo emprego em até <b>60 dias</b>.
-                        Mas sua trajetória foi marcada por desafios: Jorge enfrentou <b>333 dias de desemprego</b>, lidando com ansiedade e incertezas sobre o futuro.
-                        Foi nesse período que entendeu a importância de se <b>posicionar estrategicamente no mercado</b> — e isso transformou sua carreira.
+                <div class="w-full space-y-2">
+                    <p class="uppercase font-light text-1xl text-blue-500">Sobre seu mentor</p>
+                    <p class="font-bold text-2xl">Prof. Fernando de Matos</p>
+                    <p class="py-3">
+                        Meu nome é Fernando de Matos, sou professor universitário, mentor em comunicação estratégica e fundador da Vocalize, empresa especializada em comunicação,
+                        oratória e treinamentos personalizados para quem deseja dominar a arte de falar em público com segurança e impacto.
                     </p>
-                    <p class="py-5">
-                        Hoje, Jorge é <b>CEO da Elevatte</b>, reconhecida como uma das <b>3 melhores startups de Santa Catarina</b>,
-                        e tem como missão ajudar outras pessoas a conquistarem a <b>transformação profissional que viveram</b>.
-                        Ele acredita que <b>todo mundo merece viver da sua melhor versão</b> — e está pronto para mostrar o caminho certo até a <b>vaga dos sonhos</b>.
+                    <p class="py-3">
+                        Atuo há mais de 10 anos na área da educação e já formei centenas de alunos e profissionais que hoje ocupam posições de destaque no mercado. Minha
+                        metodologia une teoria, prática e emoção — e tem como diferencial a capacidade de adaptar a comunicação à identidade de cada pessoa. Fui responsável por
+                        estruturar programas de desenvolvimento pessoal que aumentaram a performance de vendas, o engajamento em apresentações e a autoridade de marcas pessoais.
                     </p>
-                    <div class="mt-10 w-full mx-auto">
+                    <p class="py-3">
+                        Além de mentor, sou pesquisador com foco em identidade, memória social e discurso, integrando essas áreas à formação de líderes mais conscientes e
+                        preparados. Transformei minha paixão por ensinar em missão de vida: ajudar pessoas comuns a se expressarem com clareza, confiança e autenticidade.
+                    </p>
+                    <!-- <div class="mt-10 w-full mx-auto">
                         <a href="#top">
                             <div
                                 class="text-xs w-full mx-auto md:w-[400px] uppercase p-5 text-white bg-green-600 rounded-sm hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-bold text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
                                 Quero me Inscrever Agora
                             </div>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
         <!-- end experts -->
         <!-- end feedbacks -->
-
     </main>
-    <footer class="relative overflow-hidden min-h-[200px] w-full mt-[5rem]">
+    <footer class="relative overflow-hidden min-h-[100px] w-full mt-[5rem]">
         <div class="{{ layout.container }} flex flex-col lg:flex-row my-auto items-center justify-center lg:justify-between">
             <div class="flex flex-col gap-4 items-center lg:items-start">
                 <a href="/">
-                    <img class="h-[40px]" src="{{site.baseurl}}/assets/images/elevatte/logo/white.png" srcset="
-                      {{site.baseurl}}/assets/images/elevatte/logo/white.png
-                    " alt="{{site.data.general_settings.title}}" />
+                    <img class="h-[40px]" src="/images/logo-white.png" />
                 </a>
-                <p class="text-xs text-slate-200">{{site.data.general_settings.copyright_text}}</p>
+                <p class="text-xs text-slate-200">Instituto Vocalize, 2025, Todos os Direitos Reservados</p>
             </div>
-            <div class="flex flex-row gap-10 text-slate-300 items-center">
+            <!-- <div class="flex flex-row gap-10 text-slate-300 items-center">
                 <div>
                     <a href="{{site.data.general_settings.social_accounts.links[0].url}}" target="_blank" class="p-5">
                         <svg class="text-white" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="30" fill="currentColor">
@@ -266,10 +254,7 @@
                         </svg>
                     </a>
                 </div>
-            </div>
-        </div>
-        <div class="absolute -bottom-[450px] left-[50%] w-[800px] h-[800px] -z-50">
-            <img src="/images/elements/flow2.svg">
+            </div> -->
         </div>
     </footer>
 
