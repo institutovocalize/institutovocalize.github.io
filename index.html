@@ -63,7 +63,7 @@
 <script src="/js/tw.js"></script>
 <script src="/js/jquery.min.js"></script>
 
-<body class="max-w-[1500px] px-2 lg:px-10 mx-auto bg-black text-slate-50 antialiased">
+<body class="max-w-[1500px] mx-auto px-4 lg:px-10 mx-auto bg-black text-slate-50 antialiased">
     <header id="top" class="mx-auto">
         <nav class="flex pt-[2rem] pb-[2rem] lg:pb-[4rem] w-full mx-full justify-center lg:justify-between items-center">
             <div>
@@ -76,12 +76,6 @@
                     <div class="relative group">
                         <a href="#conteudo" class="text-slate-300 relative inline-block ">
                             Conteúdo
-                            <div class="absolute left-0 bottom-0 w-full h-0.5 bg-blue-500 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></div>
-                        </a>
-                    </div>
-                    <div class="relative group">
-                        <a href="#cursos" class="text-slate-300 relative inline-block ">
-                            Cursos
                             <div class="absolute left-0 bottom-0 w-full h-0.5 bg-blue-500 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></div>
                         </a>
                     </div>
@@ -100,10 +94,8 @@
                 </div>
         </nav>
     </header>
-
     <main>
-        <!-- hero -->
-        <section id="hero" class="animate-slide-up flex flex-col md:flex-row w-full gap-5 md:gap-20 justify-between items-center h-full mb-[5rem] md:mb-[10rem]">
+        <section id="hero" class="animate-slide-up flex flex-col md:flex-row w-full gap-5 md:gap-20 justify-between items-center h-full mb-[5rem] md:mb-[12rem]">
             <div class="w-full text-center md:text-left">
                 <div class="flex flex-col gap-2 md:gap-8">
                     <div>
@@ -135,14 +127,11 @@
             <div class="rounded-sm bg-black">
                 <img class="h-auto mx-auto" src="/images/photo4.png" alt="Fernando em Público">
             </div>
-            <!-- </div> -->
         </section>
-        <!-- end hero -->
-        <!-- content -->
         <section id="conteudo" class="animate-slide-up flex flex-col gap-8 mb-[5rem] lg:mb-[10rem]">
             <div class="flex flex-col gap-4 text-center pb-10">
                 <h2
-                    class="uppercase text-2xl sm:text-4xl leading-none text-center font-black bg-gradient-to-r from-cyan-400 to-violet-600 bg-clip-text text-transparent opacity-100">
+                    class="uppercase text-2xl sm:text-4xl leading-none text-center font-semibold bg-gradient-to-r from-teal-400 to-purple-600 bg-clip-text text-transparent opacity-100">
                     O que você irá aprender
                 </h2>
                 <p class="mx-auto max-w-lg font-base text-md text-slate-400">
@@ -150,31 +139,78 @@
                 </p>
             </div>
             <div class="grid grid-col-1 lg:grid-cols-4 gap-6 md:gap-12">
-                <div class="w-full flex flex-col gap-3 text-center mx-auto bg-[#001F7C] rounded-lg py-10 px-6 shadow-lg shadow-teal-800/40">
+                <div class="w-full flex flex-col gap-3 text-center mx-auto bg-gradient-to-tr from-[#001F7C] to-cyan-600 rounded-lg py-10 px-6 shadow-lg shadow-teal-800/40">
                     <img class="w-[40px] h-auto mx-auto" src="/images/icons/mic.png">
                     <div class="text-1xl font-bold">Domínio da Voz</div>
                     <div class="text-slate-200">Aprenda técnicas para tornar sua voz mais envolvente, poderosa e persuasiva através de exercícios vocais e controle de tom.</div>
                 </div>
-                <div class="w-full flex flex-col gap-3 text-center mx-auto bg-[#001F7C] rounded-lg py-10 px-6 shadow-lg shadow-teal-800/40">
+                <div class="w-full flex flex-col gap-3 text-center mx-auto bg-gradient-to-tr from-[#001F7C] to-cyan-600 rounded-lg py-10 px-6 shadow-lg shadow-teal-800/40">
                     <img class="w-[40px] h-auto mx-auto" src="/images/icons/chat.png">
                     <div class="text-1xl font-bold">Técnicas de Storytelling</div>
                     <div class="text-slate-200">Aprenda a criar histórias convincentes que engajam, persuadem e tornam sua mensagem inesquecível.</div>
                 </div>
-                <div class="w-full flex flex-col gap-3 text-center mx-auto bg-[#001F7C] rounded-lg py-10 px-6 shadow-lg shadow-teal-800/40">
+                <div class="w-full flex flex-col gap-3 text-center mx-auto bg-gradient-to-tr from-[#001F7C] to-cyan-600 rounded-lg py-10 px-6 shadow-lg shadow-teal-800/40">
                     <img class="w-[40px] h-auto mx-auto" src="/images/icons/badge.png">
                     <div class="text-1xl font-bold">Construção de Confiança</div>
-                    <div class="text-slate-200">Supere medos e inseguranças sobre falar em público através de técnicas psicológicas comprovadas.</div>
+                    <div class="text-slate-200">Supere medos e inseguranças sobre falar em público através de técnicas psicológicas e sociais.</div>
                 </div>
-                <div class="w-full flex flex-col gap-3 text-center mx-auto bg-[#001F7C] rounded-lg py-10 px-6 shadow-lg shadow-teal-800/40">
+                <div class="w-full flex flex-col gap-3 text-center mx-auto bg-gradient-to-tr from-[#001F7C] to-cyan-600 rounded-lg py-10 px-6 shadow-lg shadow-teal-800/40">
                     <img class="w-[40px] h-auto mx-auto" src="/images/icons/people.png">
                     <div class="text-1xl font-bold">Conexão com a Platéia</div>
                     <div class="text-slate-200">Domine a arte de ler e se conectar com seu público, seja uma pessoa ou centenas.</div>
                 </div>
             </div>
         </section>
-        <!-- end content -->
-        <!-- experts -->
-        <section id="experts" class="flex flex-col gap-8 mb-[5rem] lg:mb-[10rem]">
+        <section id="planos" class="animate-slide-up flex flex-col gap-8 mb-[5rem] lg:mb-[10rem]">
+            <div class="flex flex-col gap-4 text-center pb-10">
+                <h2
+                    class="uppercase text-2xl sm:text-4xl leading-none text-center font-semibold bg-gradient-to-r from-teal-400 to-purple-600 bg-clip-text text-transparent opacity-100">
+                    Seu Plano de Comunicação
+                </h2>
+                <p class="mx-auto max-w-lg font-base text-md text-slate-400">
+                    Selecione o plano que melhor se adapta ao seu estilo de aprendizagem e orçamento
+                </p>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4 sm:gap-16 mx-auto">
+                <div class="flex flex-col text-slate-800 text-center gap-4 bg-white rounded-lg p-10">
+                    <p>Voz Ativa</p>
+                    <p>R$ 49,90 <span>/mês</span></p>
+                    <p>Sem Compromisso, cancele quando quiser</p>
+                    <ul>
+                        <li>Acesso a cursos</li>
+                        <li>Acesso a cursos</li>
+                        <li>Acesso a cursos</li>
+                    </ul>
+                    <div class="w-full">
+                        <a href="#top">
+                            <div
+                                class="text-xs w-full mx-auto md:w-[250px] uppercase p-5 text-white bg-[#2C3E99] rounded-md hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow shadow-lg shadow-blue-800/40">
+                                Iniciar plano mensal
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-col text-slate-800 text-center gap-4 bg-white rounded-lg p-10">
+                    <p>Voz Ativa</p>
+                    <p>R$ 49,90 <span>/mês</span></p>
+                    <p>Sem Compromisso, cancele quando quiser</p>
+                    <ul>
+                        <li>Acesso a cursos</li>
+                        <li>Acesso a cursos</li>
+                        <li>Acesso a cursos</li>
+                    </ul>
+                    <div class="w-full">
+                        <a href="#top">
+                            <div
+                                class="text-xs w-full mx-auto md:w-[250px] uppercase p-5 text-white bg-[#2C3E99] rounded-md hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow shadow-lg shadow-blue-800/40">
+                                Iniciar plano mensal
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mentor" class="flex flex-col gap-8 mb-[5rem] lg:mb-[10rem]">
             <div class="flex flex-col md:flex-row mx-auto gap-1 justify-between items-center">
                 <div class="w-full">
                     <figure class="flex flex-col items-center p-8">
@@ -187,13 +223,15 @@
                     <div class="text-sm md:text-md">
 
                         <p class="py-3">
-                            Meu nome é Fernando de Matos, sou professor universitário, mentor em comunicação estratégica e fundador da Vocalize, empresa especializada em comunicação,
+                            Meu nome é Fernando de Matos, sou professor universitário, mentor em comunicação estratégica e fundador da Vocalize, empresa especializada em
+                            comunicação,
                             oratória e treinamentos personalizados para quem deseja dominar a arte de falar em público com segurança e impacto.
                         </p>
                         <p class="py-3">
                             Atuo há mais de 10 anos na área da educação e já formei centenas de alunos e profissionais que hoje ocupam posições de destaque no mercado. Minha
                             metodologia une teoria, prática e emoção — e tem como diferencial a capacidade de adaptar a comunicação à identidade de cada pessoa. Fui responsável por
-                            estruturar programas de desenvolvimento pessoal que aumentaram a performance de vendas, o engajamento em apresentações e a autoridade de marcas pessoais.
+                            estruturar programas de desenvolvimento pessoal que aumentaram a performance de vendas, o engajamento em apresentações e a autoridade de marcas
+                            pessoais.
                         </p>
                         <p class="py-3">
                             Além de mentor, sou pesquisador com foco em identidade, memória social e discurso, integrando essas áreas à formação de líderes mais conscientes e
@@ -203,8 +241,6 @@
                 </div>
             </div>
         </section>
-        <!-- end experts -->
-        <!-- end feedbacks -->
     </main>
     <footer class="relative overflow-hidden min-h-[100px] w-full mt-[5rem]">
         <div class="{{ layout.container }} flex flex-col lg:flex-row my-auto items-center justify-center lg:justify-between">
@@ -214,50 +250,11 @@
                 </a>
                 <p class="text-xs text-slate-200">Instituto Vocalize, 2025, Todos os Direitos Reservados</p>
             </div>
-            <!-- <div class="flex flex-row gap-10 text-slate-300 items-center">
-                <div>
-                    <a href="{{site.data.general_settings.social_accounts.links[0].url}}" target="_blank" class="p-5">
-                        <svg class="text-white" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="30" fill="currentColor">
-                            <path
-                                d="M19.959 11.719v7.379h-4.278v-6.885c0-1.73-.619-2.91-2.167-2.91-1.182 0-1.886.796-2.195 1.565-.113.275-.142.658-.142 1.043v7.187h-4.28s.058-11.66 0-12.869h4.28v1.824l-.028.042h.028v-.042c.568-.875 1.583-2.126 3.856-2.126 2.815 0 4.926 1.84 4.926 5.792zM2.421.026C.958.026 0 .986 0 2.249c0 1.235.93 2.224 2.365 2.224h.028c1.493 0 2.42-.989 2.42-2.224C4.787.986 3.887.026 2.422.026zM.254 19.098h4.278V6.229H.254v12.869z">
-                            </path>
-                        </svg>
-                    </a>
-                </div>
-                <div>
-                    <a href="{{site.data.general_settings.social_accounts.links[1].url}}" target="_blank" class="p-5">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="30" fill="currentColor">
-                            <path
-                                d="M14.017 0h-8.07A5.954 5.954 0 0 0 0 5.948v8.07a5.954 5.954 0 0 0 5.948 5.947h8.07a5.954 5.954 0 0 0 5.947-5.948v-8.07A5.954 5.954 0 0 0 14.017 0zm3.94 14.017a3.94 3.94 0 0 1-3.94 3.94h-8.07a3.94 3.94 0 0 1-3.939-3.94v-8.07a3.94 3.94 0 0 1 3.94-3.939h8.07a3.94 3.94 0 0 1 3.939 3.94v8.07z">
-                            </path>
-                            <path
-                                d="M9.982 4.819A5.17 5.17 0 0 0 4.82 9.982a5.17 5.17 0 0 0 5.163 5.164 5.17 5.17 0 0 0 5.164-5.164A5.17 5.17 0 0 0 9.982 4.82zm0 8.319a3.155 3.155 0 1 1 0-6.31 3.155 3.155 0 0 1 0 6.31z">
-                            </path>
-                            <circle cx="15.156" cy="4.858" r="1.237"></circle>
-                        </svg>
-                    </a>
-                </div>
-                <div>
-                    <a href="{{site.data.general_settings.social_accounts.links[2].url}}" target="_blank" class="p-5">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="30" fill="currentColor">
-                            <path
-                                d="M9.516.012C4.206.262.017 4.652.033 9.929a9.798 9.798 0 0 0 1.085 4.465L.06 19.495a.387.387 0 0 0 .47.453l5.034-1.184a9.981 9.981 0 0 0 4.284 1.032c5.427.083 9.951-4.195 10.12-9.58C20.15 4.441 15.351-.265 9.516.011zm6.007 15.367a7.784 7.784 0 0 1-5.52 2.27 7.77 7.77 0 0 1-3.474-.808l-.701-.347-3.087.726.65-3.131-.346-.672A7.62 7.62 0 0 1 2.197 9.9c0-2.07.812-4.017 2.286-5.48a7.85 7.85 0 0 1 5.52-2.271c2.086 0 4.046.806 5.52 2.27a7.672 7.672 0 0 1 2.287 5.48c0 2.052-.825 4.03-2.287 5.481z">
-                            </path>
-                            <path
-                                d="M14.842 12.045l-1.931-.55a.723.723 0 0 0-.713.186l-.472.478a.707.707 0 0 1-.765.16c-.913-.367-2.835-2.063-3.326-2.912a.694.694 0 0 1 .056-.774l.412-.53a.71.71 0 0 0 .089-.726L7.38 5.553a.723.723 0 0 0-1.125-.256c-.539.453-1.179 1.14-1.256 1.903-.137 1.343.443 3.036 2.637 5.07 2.535 2.349 4.566 2.66 5.887 2.341.75-.18 1.35-.903 1.727-1.494a.713.713 0 0 0-.408-1.072z">
-                            </path>
-                        </svg>
-                    </a>
-                </div>
-            </div> -->
         </div>
     </footer>
-
-    <!-- background images -->
     <div class="absolute overflow-x-hidden hidden lg:block -top-[6rem] -left-[600px] w-[1000px] h-[1000px] -z-50 opacity-25">
         <img src="/images/elements/flow3.svg">
     </div>
-    <!-- /background images -->
 </body>
 
 </html>
